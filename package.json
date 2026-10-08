@@ -1,0 +1,21 @@
+{
+  "name": "cheltum",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "tsx src/bot.ts",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5",
+    "grammy": "^1.36.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
