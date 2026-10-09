@@ -33,3 +33,8 @@ with `npm start`. Run the tests with:
 ```powershell
 npm test
 ```
+
+## Ubuntu hosting
+
+For instructions to deploy the bot as a systemd service, see
+[DEPLOYMENT.md](./DEPLOYMENT.md) (in Russian).
